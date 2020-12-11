@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavbarBrand, NavLink, Form, FormControl, Button} from 'react-bootstrap';
+import { Navbar, Nav, NavbarBrand, NavLink} from 'react-bootstrap';
 
 const NavBar = () => {
 
@@ -11,10 +11,6 @@ const NavBar = () => {
       <NavLink href="#secciones">Secciones</NavLink>
       <NavLink href="#marcas">Marcas</NavLink>
     </Nav>
-    <Form inline>
-      <FormControl type="text" placeholder="Buscar un producto" className="mr-sm-2" />
-      <Button variant="outline-primary">Search</Button>
-    </Form>
     </Navbar>
    </>
   )
