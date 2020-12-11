@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavbarBrand, NavLink, Form, FormContol} from 'react-bootstrap';
+import { Navbar, Nav, NavbarBrand, NavLink, Form, FormControl, Button} from 'react-bootstrap';
 
 const NavBar = () => {
 
