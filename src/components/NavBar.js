@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navbar, Nav, NavbarBrand, NavLink} from 'react-bootstrap';
+import 'boostrap/dist/css/boostrap.min.css';
+import { Navbar, Nav } from 'react-bootstrap';
 import CartWidget from './components/CartWidget.js';
 
 function NavBar() {
@@ -7,10 +8,10 @@ function NavBar() {
   return (
     <>
       <Navbar bg="light" variant="light">
-        <NavbarBrand href="#home">A&M</NavbarBrand>
+        <Navbar.Brand href="#home">A&M</Navbar.Brand>
         <Nav className="mr-auto">
-          <NavLink href="#secciones">Secciones</NavLink>
-          <NavLink href="#marcas">Marcas</NavLink>
+          <Nav.Link href="#secciones">Secciones</Nav.Link>
+          <Nav.Link href="#marcas">Marcas</Nav.Link>
         </Nav>
         <CartWidget />
       </Navbar>
